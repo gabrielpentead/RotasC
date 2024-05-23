@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom';
 
-function Home(){
+function Contato(){
     return(
         <div>
-            <h1>Bem-vindo à página HOME</h1>
-            <span>Gabriel Penteado</span>
+            <h1>Página de Contato</h1>
+            <span>42 3621-1031</span>
             <br/>
             
             <Link to="/sobre">Sobre</Link><br/>
-            <Link to="/contato">Contato</Link>
+            <Link to="/">home</Link>
 
             <hr/>
 
@@ -17,4 +17,4 @@ function Home(){
     );
 }
 
-export default Home;
+export default Contato;

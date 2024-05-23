@@ -1,13 +1,13 @@
 import { Link } from 'react-router-dom';
 
-function Home(){
+function Sobre(){
     return(
         <div>
-            <h1>Bem-vindo à página HOME</h1>
-            <span>Gabriel Penteado</span>
+            <h1>Página Sobre a Empresa</h1>
+            <span>Campo Real</span>
             <br/>
             
-            <Link to="/sobre">Sobre</Link><br/>
+            <Link to="/">Home</Link><br/>
             <Link to="/contato">Contato</Link>
 
             <hr/>
@@ -17,4 +17,4 @@ function Home(){
     );
 }
 
-export default Home;
+export default Sobre;
